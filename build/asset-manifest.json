@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.eada99c1.chunk.js",
-    "main.js.map": "/static/js/main.eada99c1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c3b589e7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c3b589e7.js.map",
-    "static/js/2.504cae37.chunk.js": "/static/js/2.504cae37.chunk.js",
-    "static/js/2.504cae37.chunk.js.map": "/static/js/2.504cae37.chunk.js.map",
-    "index.html": "/index.html",
-    "static/js/2.504cae37.chunk.js.LICENSE.txt": "/static/js/2.504cae37.chunk.js.LICENSE.txt",
-    "static/media/back-icon.bd9aae6b.svg": "/static/media/back-icon.bd9aae6b.svg",
-    "static/media/ilustration-not-found.92a37906.svg": "/static/media/ilustration-not-found.92a37906.svg",
-    "static/media/logo-blue.fea6e995.svg": "/static/media/logo-blue.fea6e995.svg",
-    "static/media/logo.a60a2a00.svg": "/static/media/logo.a60a2a00.svg",
-    "static/media/search-icon.11aa76a1.svg": "/static/media/search-icon.11aa76a1.svg"
+    "main.js": "/Lendo-Musica-Web/static/js/main.dcf6f9e2.chunk.js",
+    "main.js.map": "/Lendo-Musica-Web/static/js/main.dcf6f9e2.chunk.js.map",
+    "runtime-main.js": "/Lendo-Musica-Web/static/js/runtime-main.9b818146.js",
+    "runtime-main.js.map": "/Lendo-Musica-Web/static/js/runtime-main.9b818146.js.map",
+    "static/js/2.35d1d2f9.chunk.js": "/Lendo-Musica-Web/static/js/2.35d1d2f9.chunk.js",
+    "static/js/2.35d1d2f9.chunk.js.map": "/Lendo-Musica-Web/static/js/2.35d1d2f9.chunk.js.map",
+    "index.html": "/Lendo-Musica-Web/index.html",
+    "static/js/2.35d1d2f9.chunk.js.LICENSE.txt": "/Lendo-Musica-Web/static/js/2.35d1d2f9.chunk.js.LICENSE.txt",
+    "static/media/back-icon.bd9aae6b.svg": "/Lendo-Musica-Web/static/media/back-icon.bd9aae6b.svg",
+    "static/media/ilustration-not-found.92a37906.svg": "/Lendo-Musica-Web/static/media/ilustration-not-found.92a37906.svg",
+    "static/media/logo-blue.fea6e995.svg": "/Lendo-Musica-Web/static/media/logo-blue.fea6e995.svg",
+    "static/media/logo.a60a2a00.svg": "/Lendo-Musica-Web/static/media/logo.a60a2a00.svg",
+    "static/media/search-icon.11aa76a1.svg": "/Lendo-Musica-Web/static/media/search-icon.11aa76a1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c3b589e7.js",
-    "static/js/2.504cae37.chunk.js",
-    "static/js/main.eada99c1.chunk.js"
+    "static/js/runtime-main.9b818146.js",
+    "static/js/2.35d1d2f9.chunk.js",
+    "static/js/main.dcf6f9e2.chunk.js"
   ]
 }

@@ -9,7 +9,7 @@ import GlobalStyle from './styles/global';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <AppProvider>
         <Routes />
       </AppProvider>
