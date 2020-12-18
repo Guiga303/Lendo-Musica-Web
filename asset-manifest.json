@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.js": "/Lendo-Musica-Web/static/js/main.dcf6f9e2.chunk.js",
-    "main.js.map": "/Lendo-Musica-Web/static/js/main.dcf6f9e2.chunk.js.map",
+    "main.js": "/Lendo-Musica-Web/static/js/main.3b67db81.chunk.js",
+    "main.js.map": "/Lendo-Musica-Web/static/js/main.3b67db81.chunk.js.map",
     "runtime-main.js": "/Lendo-Musica-Web/static/js/runtime-main.9b818146.js",
     "runtime-main.js.map": "/Lendo-Musica-Web/static/js/runtime-main.9b818146.js.map",
-    "static/js/2.35d1d2f9.chunk.js": "/Lendo-Musica-Web/static/js/2.35d1d2f9.chunk.js",
-    "static/js/2.35d1d2f9.chunk.js.map": "/Lendo-Musica-Web/static/js/2.35d1d2f9.chunk.js.map",
+    "static/js/2.a6c75929.chunk.js": "/Lendo-Musica-Web/static/js/2.a6c75929.chunk.js",
+    "static/js/2.a6c75929.chunk.js.map": "/Lendo-Musica-Web/static/js/2.a6c75929.chunk.js.map",
     "index.html": "/Lendo-Musica-Web/index.html",
-    "static/js/2.35d1d2f9.chunk.js.LICENSE.txt": "/Lendo-Musica-Web/static/js/2.35d1d2f9.chunk.js.LICENSE.txt",
+    "static/js/2.a6c75929.chunk.js.LICENSE.txt": "/Lendo-Musica-Web/static/js/2.a6c75929.chunk.js.LICENSE.txt",
     "static/media/back-icon.bd9aae6b.svg": "/Lendo-Musica-Web/static/media/back-icon.bd9aae6b.svg",
+    "static/media/favicon.6b6cc9da.svg": "/Lendo-Musica-Web/static/media/favicon.6b6cc9da.svg",
     "static/media/ilustration-not-found.92a37906.svg": "/Lendo-Musica-Web/static/media/ilustration-not-found.92a37906.svg",
     "static/media/logo-blue.fea6e995.svg": "/Lendo-Musica-Web/static/media/logo-blue.fea6e995.svg",
     "static/media/logo.a60a2a00.svg": "/Lendo-Musica-Web/static/media/logo.a60a2a00.svg",
@@ -16,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9b818146.js",
-    "static/js/2.35d1d2f9.chunk.js",
-    "static/js/main.dcf6f9e2.chunk.js"
+    "static/js/2.a6c75929.chunk.js",
+    "static/js/main.3b67db81.chunk.js"
   ]
 }
