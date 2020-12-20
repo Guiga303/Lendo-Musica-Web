@@ -2,7 +2,6 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 
 import { useSearch } from '../../hooks/search';
-import api from '../../services/api';
 
 import Button from '../../components/Button';
 
