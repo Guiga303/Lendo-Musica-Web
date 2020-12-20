@@ -75,7 +75,7 @@ const SearchResult: React.FC = () => {
             ))}
 
           <Button
-            containerStyle={{ width: 340 }}
+            containerStyle={{ width: 340, marginBottom: 70 }}
             type="submit"
             onClick={backToSearch}
           >

@@ -1,8 +1,7 @@
 import styled, { keyframes } from 'styled-components';
-import { shade } from 'polished';
 
 export const Container = styled.div`
-  height: 100vh;
+  min-height: 100vh;
 
   display: flex;
   align-items: center;
@@ -14,6 +13,7 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 32px;
 
   width: 100%;
   max-width: 700px;
@@ -37,6 +37,10 @@ export const AnimationContainer = styled.div`
   justify-content: center;
 
   animation: ${appearFromLeft} 1s;
+
+  > img {
+    margin-top: 50px;
+  }
 `;
 
 export const CleanHistoryButton = styled.button`

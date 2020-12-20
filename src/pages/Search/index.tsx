@@ -2,6 +2,7 @@ import React, { useRef, useCallback, useState } from 'react';
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
 import { Link, useHistory } from 'react-router-dom';
+import * as Yup from 'yup';
 import api from '../../services/api';
 
 import { useSearch } from '../../hooks/search';
@@ -32,25 +33,40 @@ const Search: React.FC = () => {
     async (data: SearchFormData) => {
       setLoading(true);
 
-      const { artist, music } = data;
+      try {
+        const schema = Yup.object().shape({
+          artist: Yup.string().required('Artista obrigatório'),
+          music: Yup.string().required('Música obrigatória'),
+        });
 
-      const response = await api.get(`/${artist}/${music}`);
+        await schema.validate(data, {
+          abortEarly: false,
+        });
 
-      const lyric = response.data.lyrics;
+        const { artist, music } = data;
 
-      const searchData = {
-        artist,
-        music,
-        lyric,
-      };
+        const response = await api.get(`/${artist}/${music}`);
 
-      if (lyric === '') {
-        setLoading(false);
-        history.push('/music-not-found');
-      } else {
-        await saveSearch(searchData);
-        setLoading(false);
-        history.push('/search-result');
+        const lyric = response.data.lyrics;
+
+        const searchData = {
+          artist,
+          music,
+          lyric,
+        };
+
+        if (lyric === '') {
+          setLoading(false);
+          history.push('/music-not-found');
+        } else {
+          await saveSearch(searchData);
+          setLoading(false);
+          history.push('/search-result');
+        }
+      } catch (error) {
+        if (error instanceof Yup.ValidationError) {
+          setLoading(false);
+        }
       }
     },
     [history, saveSearch],
