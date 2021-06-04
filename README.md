@@ -33,7 +33,7 @@ This project was developed using cutting edge front-end technologies.
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/guiathayde/chat-websocket.git && cd chat-websocket
+$ git clone https://github.com/guiathayde/Lendo-Musica-Web.git && cd Lendo-Musica-Web
 ```
 
 **Follow the steps below**
