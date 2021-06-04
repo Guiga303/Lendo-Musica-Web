@@ -1,7 +1,7 @@
 # Lendo Música Web
 <div align="center">
   <br />
-  <img src="https://miro.medium.com/max/1024/1*xDi2csEAWxu95IEkaNdFUQ.png" alt="Logo React Native" width="500px" height="300px">
+  <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--3zWuwYa3--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pdib9r9rk5j1m7oala1p.png" alt="Logo React Native" width="500px" height="300px">
 </div>
 <h4 align="center">
   Web page to pratice REST API. You can search the singer and song to get the lyric.
